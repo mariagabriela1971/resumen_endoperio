@@ -10,8 +10,13 @@
 \setsansfont{CMU Sans Serif}
 \setmonofont{CMU Typewriter Text}
 
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{main.bib}
+
 \begin{document}
 
 \include{sections/section_1/main}
+
+\printbibliography
 
 \end{document}
