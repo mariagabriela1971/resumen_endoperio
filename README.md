@@ -10,6 +10,7 @@ En el directorio `resumen_endoperio` ejecutar
 lualatex main.tex
 biber main
 lualatex main.tex
+lualatex main.tex
 ```
 
 Para análisis ortográfico y gramatical usar el comando 
